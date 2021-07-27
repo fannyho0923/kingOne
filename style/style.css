@@ -1,0 +1,98 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, "LiHei Pro", "Microsoft JhengHei", sans-serif;
+}
+
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 1920px;
+  height: 1080px;
+  background-image: url("../imgs/k1.png");
+  /* background-size: cover; */
+  /* background-position: center; */
+  background-repeat: no-repeat;
+}
+.mx-auto {
+  /* display: inline-block; */
+  /* margin-left: 500px;
+  margin-right: 500px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 23%;
+  /* transform: translateX(-714px); */
+  /* background-color: blue; */
+}
+.base__body {
+  width: 1428px;
+  height: 966.2px;
+  margin-top: 68.2px;
+  /* margin-left: 244.6px;
+  margin-right: 247.4px; */
+  position: relative;
+  background-image: url("../imgs/k2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: aquamarine; */
+}
+.name {
+  display: inline-block;
+  position: absolute;
+  left: 44%;
+  top: 7%;
+}
+.name1 {
+  font-size: 41.7px;
+  margin-bottom: 15.5px;
+  font-family: MicrosoftYaHeiBold-GBpc-EUC-H;
+}
+.name2 {
+  font-size: 30.1px;
+  font-family: MicrosoftYaHeiGBpc-EUC-H;
+}
+.logo__top {
+  position: absolute;
+  left: 28%;
+  top: 6%;
+  /* background-color: blue; */
+}
+.logo__left {
+  position: absolute;
+  left: 3.5%;
+  top: 46%;
+}
+.logo__mid {
+  position: absolute;
+  left: 23%;
+  top: 40.5%;
+}
+.logo__down {
+  position: absolute;
+  left: 35%;
+  top: 87%;
+}
+.logo__point {
+  position: absolute;
+
+  left: 56%;
+  top: 94%;
+}
+.logo__right {
+  position: absolute;
+  left: 77.5%;
+  top: 42%;
+}
+.logo__small {
+  position: absolute;
+  left: 91%;
+  top: 41%;
+}
+.board {
+  position: absolute;
+  left: 11%;
+  top: 13%;
+  width: 215px;
+  /* height: 50px; */
+}
